@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/d4/a0/8b/d4a08b04f51a6ed58968df43f87b9d25.jpg")
+}
+
+.navbar{
+    opacity: .55;
+    font-family: 'Inconsolata', monospace;
+    color: black
+
+}
+.jumbotron {
+    margin-bottom: 0px;
+    opacity: .55;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: black
+    
+}
+
+   
+
+
