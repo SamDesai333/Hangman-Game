@@ -3,20 +3,48 @@ body {
 }
 
 .navbar{
-    opacity: .55;
+    opacity: .85;
     font-family: 'Inconsolata', monospace;
     color: black
 
 }
 .jumbotron {
     margin-bottom: 0px;
-    opacity: .55;
+    opacity: .65;
     text-align: center;
     font-family: 'Inconsolata', monospace;
     color: black
     
 }
 
+.col-xs-12{
+    padding: 25px;
+    text-align: left;
+    border-style: hidden;
+    border-radius: 8px 8px 8px 8px;
+    border-width: thin rgb(3, 3, 3);
+    border-bottom-width:thin;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-right-width:thin;
+    background: rgb(248, 248, 248);
+    opacity: .65;
+    margin-top: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#wordLines {
+    font-size: 35px;
+    text-align: center;
+}
+
+footer {
+    background:rgb(248, 248, 248);
+    position: bottom;
+    padding: 15px;
+    opacity: .80;
+}
    
 
 
