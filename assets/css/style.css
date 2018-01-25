@@ -34,8 +34,8 @@ body {
     font-size: 20px;
     margin-bottom: 40px;
 }
-#wordLines {
-    font-size: 35px;
+.wordLines {
+    font-size: 50px;
     text-align: center;
 }
 
