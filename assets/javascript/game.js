@@ -1,5 +1,5 @@
 //word bank
-var wordBank = ["bean", "corn", "kale", "date", "fruit"];
+var wordBank = ["bean", "corn", "kale", "date", "fruit", "grape", "orange", "okra", "spinach"];
 var random = Math.floor((Math.random() * wordBank.length));
 var randomWord = wordBank[random];
 var correct = [];
@@ -22,7 +22,7 @@ var emptyArray = function () {
     }
     return printToScreen
 }
-
+emptyArray();
 
 //add event key listener for user guess
 document.addEventListener("keypress", function (key) {
@@ -36,12 +36,43 @@ document.addEventListener("keypress", function (key) {
     //DOM manipulate correct guesses to wordLines class and Correct class on page        
         underScore[0].innerHTML = printToScreen.join(" ");
         rightGuess[0].innerHTML = correct.join(" ");
+    
     }
     else {
         incorrect.push(key);
     //DOM manipulate to wrong guesses class on page
         wrongGuess[0].innerHTML = incorrect.join(" ")
         Lives--;
+        if(Lives === 0){
+            alert("You Lose!")
+        }
+        
+        /*
+
+            if(They won){
+                alert("You win")
+
+                reset all our variables
+
+                Wins ++ 
+
+                return
+            }
+
+            if(Lives === 0){
+                reset all of our variables
+                lives = 9
+                words = a new word
+                etc..
+
+                Losses ++
+
+                return
+            }
+
+
+
+        */
         life.push(Lives)
         lifeCount[0].innerHTML = life.join(" ");
         
